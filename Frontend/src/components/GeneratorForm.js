@@ -18,7 +18,11 @@ export default function GeneratorForm({ onStart, onDone, onError }) {
     onStart();
 
     try {
-      const res = await axios.post("/generate", { techStack, projectName, optimize });
+      const res = await axios.post("https://baseline-backend-931f.onrender.com/generate", {
+      techStack,
+      projectName,
+      optimize,
+      });
       if (res.data && res.data.yaml) {
         onDone({ yaml: res.data.yaml, meta: { techStack, projectName } });
       } else {
