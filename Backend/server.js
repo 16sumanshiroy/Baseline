@@ -1,3 +1,11 @@
+// ✅ Improved CORS setup for Render + Vercel compatibility
+app.use(
+  cors({
+    origin: "*", // allow all origins (safe for hackathon demo)
+    methods: ["GET", "POST", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+  })
+);
 const express = require("express");
 const cors = require("cors");
 const bodyParser = require("body-parser");
@@ -11,15 +19,6 @@ const openai = new OpenAI({
 });
 
 const app = express();
-
-// ✅ Improved CORS setup for Render + Vercel compatibility
-app.use(
-  cors({
-    origin: "*", // allow all origins (safe for hackathon demo)
-    methods: ["GET", "POST", "OPTIONS"],
-    allowedHeaders: ["Content-Type", "Authorization"],
-  })
-);
 
 app.use(bodyParser.json());
 
