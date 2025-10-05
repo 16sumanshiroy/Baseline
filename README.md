@@ -39,8 +39,11 @@ cd ../frontend
 npm install
 npm start
 ```
-
 Open your browser at `http://localhost:3000`.
+
+---
+## 🌐 Live Demo
+👉 [https://baseline-configgen.vercel.app](https://baseline-configgen.vercel.app)
 
 ---
 
