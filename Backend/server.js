@@ -11,7 +11,16 @@ const openai = new OpenAI({
 });
 
 const app = express();
-app.use(cors());
+
+// ✅ Improved CORS setup for Render + Vercel compatibility
+app.use(
+  cors({
+    origin: "*", // allow all origins (safe for hackathon demo)
+    methods: ["GET", "POST", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+  })
+);
+
 app.use(bodyParser.json());
 
 // ======================= GENERATE YAML ==========================
@@ -91,7 +100,6 @@ ${yaml}
       const explanation = completion.output[0].content[0].text.trim();
       console.log("✅ AI Explanation Generated:\n" + explanation);
       return res.json({ explanation });
-
     } catch (apiErr) {
       console.error("❌ Explain Error:", apiErr);
 
@@ -118,7 +126,7 @@ Caching is configured for faster builds and improved performance.
         return res.json({ explanation: fallback });
       }
 
-      throw apiErr; // rethrow for general catch below
+      throw apiErr;
     }
   } catch (err) {
     console.error("❌ Explain API General Error:", err);
@@ -129,7 +137,7 @@ Caching is configured for faster builds and improved performance.
 });
 
 // ======================= SERVER START ==========================
-const PORT = process.env.PORT || 10000;
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, () =>
   console.log(`✅ Server running on port ${PORT}`)
 );
