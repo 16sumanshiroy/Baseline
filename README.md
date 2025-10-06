@@ -54,13 +54,25 @@ Open your browser at `http://localhost:3000`.
 ## 🖼 Screenshots
 
 ### Main UI
-![Main UI Screenshot](./screenshots/main-ui.png)
+![Dark Mode UI]<img width="1920" height="1080" alt="Screenshot (79)" src="https://github.com/user-attachments/assets/88b2ada3-3adb-4b76-bf6d-2cd329a3d878" />
 
 ### YAML Generate / Optimise
-![YAML Screenshot](./screenshots/yaml.png)
+![Node.js npm YAML]<img width="1920" height="1080" alt="Screenshot (83)" src="https://github.com/user-attachments/assets/9b2f735b-f7f5-4c6e-9d8a-38b9ae0f75ef" />
+
+![Node.js npm YAML with explaination]<img width="1920" height="1080" alt="Screenshot (84)" src="https://github.com/user-attachments/assets/2b5c3a5d-d38e-4dcb-a0a4-d9d5a51a5464" />
+
+![Python (pip/pytest) YAML]<img width="1920" height="1080" alt="Screenshot (85)" src="https://github.com/user-attachments/assets/5066eb51-5ecd-4225-9afd-6b5de74173af" />
+
+![Java (Maven) YAML]<img width="1920" height="1080" alt="Screenshot (86)" src="https://github.com/user-attachments/assets/10b61979-654b-4916-8e09-875b7393b063" />
 
 ### Explain Feature
-![Explain Screenshot](./screenshots/explain.png)
+![Light Mode UI]<img width="1920" height="1080" alt="Screenshot (80)" src="https://github.com/user-attachments/assets/52de9039-8343-4933-a096-e9d99a800483" />
+
+![Node.js npm YAML WITHOUT AI OPTIMISATION]<img width="1920" height="1080" alt="Screenshot (117)" src="https://github.com/user-attachments/assets/549fec19-2149-4751-be87-13ef311eb765" />
+
+![Python (pip/pytest) YAML WITHOUT AI OPTIMISATION]<img width="1920" height="1080" alt="Screenshot (115)" src="https://github.com/user-attachments/assets/4c915f21-86fe-409b-9bc5-b271eba7b4d2" />
+
+![Java (Maven) YAML WITHOUT AI OPTIMISATION]<img width="1920" height="1080" alt="Screenshot (87)" src="https://github.com/user-attachments/assets/44ff934d-fdab-463c-be06-542d2393a0b9" />
 
 > 📌 Upload screenshots into a `screenshots/` folder and adjust filenames above accordingly.
 
