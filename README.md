@@ -66,13 +66,6 @@ Open your browser at `http://localhost:3000`.
 
 ---
 
-## 🌐 Live Demo
-
-View the live demo (if hosted here):  
-[https://your-deployment-url.com](https://your-deployment-url.com)
-
----
-
 ## 💡 How It Works
 
 1. Frontend sends project name + tech stack to backend.  
