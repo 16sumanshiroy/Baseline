@@ -42,17 +42,21 @@ npm start
 Open your browser at `http://localhost:3000`.
 
 ---
-## 🌐 Live Demo
-👉 [https://baseline-configgen.vercel.app](https://baseline-configgen.vercel.app)
+## 🌐 Live Demo Links: 
+
+## Frontend (Live App):
+🌐 https://baseline-git-main-sumanshi-roys-projects.vercel.app
+
+## Backend API:
+⚙️ https://baseline-backend-931f.onrender.com
 
 ---
-
 ## 🖼 Screenshots
 
 ### Main UI
 ![Main UI Screenshot](./screenshots/main-ui.png)
 
-### YAML Generate / Optimize
+### YAML Generate / Optimise
 ![YAML Screenshot](./screenshots/yaml.png)
 
 ### Explain Feature
